@@ -147,7 +147,8 @@ puts bp_1.move?(1,6)
 puts "These should be false"
 puts wp_1.move?(2,2)
 
-@pieces = [[],[],[],[],[],[],[],[],[]]
+#              1  2  3  4  5  6  7  8  9
+@pieces = [nil,[],[],[],[],[],[],[],[],[]]
 @pieces[1][8] = br_left
 @pieces[8][8] = br_right
 @pieces[1][1] = wr_left
